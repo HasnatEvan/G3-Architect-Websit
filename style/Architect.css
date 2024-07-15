@@ -87,7 +87,7 @@
         flex-direction: column;
     }
     .team-img-container{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1);
     }
     .navbar,.banner{
         width: 100%;
@@ -179,4 +179,33 @@
 }
 .fact-discription{
     max-width: 540px;
+}
+@media screen and(max-width:576px) {
+    .fact{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+
+.spomsor-img{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
 }
