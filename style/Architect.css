@@ -209,3 +209,67 @@
     justify-content: space-between;
     filter: grayscale(100%);
 }
+
+
+
+
+#frature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-card{
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+margin-bottom: 20px;
+width: 514px;
+
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+
+    
+}
+.Features{
+    display: flex;
+    gap: 150px;
+}
+
+
+
+
+.Experience-badge{
+    padding: 45px 42px;
+    margin-left: -100px;
+}
+
+
+.Experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.Experience-ll{
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.main-footer{
+    text-align: center;
+    align-items: center;
+  justify-content: center;
+}
+
+
+
+.footer{
+    max-width: 1440px ;
+    height: 100px;
+    background-color: rgba(255, 244, 231, 1);
+    padding-top: 50px;
+    margin: 210px 240px;
+  
+   
+    
+}
